@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "pg-staging": {
+      "command": "/Users/riverhermsen/.local/bin/uv",
+      "args": [
+        "run",
+        "/Users/riverhermsen/Projects/postgres-mcp/server.py"
+      ],
+      "env": {
+        "PG_BASE_URI": "postgresql://USER:PASSWORD@HOST:5432",
+        "PG_DEFAULT_DB": "postgres"
+      }
+    },
+    "pg-prod": {
+      "command": "/Users/riverhermsen/.local/bin/uv",
+      "args": [
+        "run",
+        "/Users/riverhermsen/Projects/postgres-mcp/server.py"
+      ],
+      "env": {
+        "PG_BASE_URI": "postgresql://USER:PASSWORD@HOST:5432",
+        "PG_DEFAULT_DB": "postgres"
+      }
+    }
+  }
+}
