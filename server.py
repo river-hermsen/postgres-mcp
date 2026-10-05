@@ -1,7 +1,7 @@
 #!/usr/bin/env -S uv run --script
 # /// script
 # requires-python = ">=3.11"
-# dependencies = ["mcp>=1.2", "psycopg[binary]>=3.2"]
+# dependencies = ["mcp>=1.2,<2", "psycopg[binary]>=3.2"]
 # ///
 """Multi-database, read-only PostgreSQL MCP server.
 
